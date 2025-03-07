@@ -4,12 +4,12 @@
 class People
 {
     // membuat property
-    public $name;
-    public $age;
-    public $address;
+    var $name;
+    var $age;
+    var $address;
 
     // membuat method
-    public function sayHello()
+    function sayHello()
     {
         return "Halo nama saya $this->name, saya berumur $this->age tahun. Saat ini saya tinggal di $this->address";
     }
